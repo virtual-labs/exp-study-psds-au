@@ -88,26 +88,85 @@
     /////////////// Write the MCQ below in the exactly same described format ///////////////
 
 
-    const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
-            answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+    const myQuestions = [
+        
+        {
+            question: "1. Brain area responsible for motor movement:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "Occipital lobe", ///// Write the option 1 inside double quotes
+                b: "Temporal lobe", ///// Write the option 2 inside double quotes
+                c: "Frontal lobe", ///// Write the option 2 inside double quotes
+                d: "Parietal lobe", ///// Write the option 2 inside double quotes
             },
+            
+            correctAnswer: "c" ///// Write the correct option inside double quotes
+        },
+
+
+
+        {
+            question: "2. Areas of activation in brain regions may change depending on different cognitive tasks:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "True", ///// Write the option 1 inside double quotes
+                b: "False", ///// Write the option 2 inside double quotes
+            },
+            
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
 
 
-        
+
+        {
+            question: "3. Window analysis of EEG data helps in:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "Reducing time for computational analysis", ///// Write the option 1 inside double quotes
+                b: "Understanding neural basis of cognitive tasks on millisecond scale", ///// Write the option 2 inside double quotes
+                c: "Increases quality of visualization plots", ///// Write the option 2 inside double quotes
+                d: "None of the above", ///// Write the option 2 inside double quotes
+            },
+            
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+
+
+
+        {
+            question: "4. ERP indicates:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "Epoch reproducing pattern", ///// Write the option 1 inside double quotes
+                b: "Event related potential", ///// Write the option 2 inside double quotes
+                c: "Epoch rearranging pattern", ///// Write the option 2 inside double quotes
+                d: "Event reconstruction potential", ///// Write the option 2 inside double quotes
+            },
+            
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+
+
+        {
+            question: "5. Disadvantage of EEG/ERP analysis:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "Difficulty in providing information from deeper brain regions", ///// Write the option 1 inside double quotes
+                b: "Maximum temporal resolution", ///// Write the option 2 inside double quotes
+                c: "Maximum spatial resolution", ///// Write the option 2 inside double quotes
+                d: "Analyze data on millisecond time scale", ///// Write the option 2 inside double quotes
+            },
+            
+            correctAnswer: "c" ///// Write the correct option inside double quotes
+        },
+
+
     ];
 
 
