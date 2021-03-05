@@ -88,23 +88,70 @@
      /////////////// Write the MCQ below in the exactly same described format ///////////////
 
 
-     const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
-            answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+     const myQuestions = [
+         
+        {
+            question: "1. A 1 Hz brain wave consist of :", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "Period", ///// Write the option 1 inside double quotes
+                b: "Amplitude", ///// Write the option 2 inside double quotes
+                c: "Frequency", ///// Write the option 2 inside double quotes
+                d: "All the above", ///// Write the option 2 inside double quotes
             },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
+            
+            correctAnswer: "d" ///// Write the correct option inside double quotes
         },
 
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
+
+
+        {
+            question: "2. The frequency range of beta wave is:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "8-10 Hz", ///// Write the option 1 inside double quotes
+                b: "3-7Hz", ///// Write the option 2 inside double quotes
+                c: "13-30Hz", ///// Write the option 2 inside double quotes
+                d: "30-100Hz", ///// Write the option 2 inside double quotes
+            },
+            
+            correctAnswer: "c" ///// Write the correct option inside double quotes
+        },
+
+
+
+
+        {
+            question: "3. Depending on the range of oscillations, the brain waves were classified into:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "Delta wave", ///// Write the option 1 inside double quotes
+                b: "Beta wave", ///// Write the option 2 inside double quotes
+                c: "Alpha wave", ///// Write the option 2 inside double quotes
+                d: "All the above", ///// Write the option 2 inside double quotes
+            },
+            
+            correctAnswer: "d" ///// Write the correct option inside double quotes
+        },
+
+
+
+        {
+            question: "4. A characteristic feature of EEG technique is:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "High Temporal Resolution", ///// Write the option 1 inside double quotes
+                b: "Low Spatial Resolution", ///// Write the option 2 inside double quotes
+                c: "Both a and b", ///// Write the option 2 inside double quotes
+                d: "Low signal to Noise ratio", ///// Write the option 2 inside double quotes
+            },
+            
+            correctAnswer: "c" ///// Write the correct option inside double quotes
+        },
 
 
 
